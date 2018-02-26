@@ -26,14 +26,16 @@ for i in range(3,0,-1):
   )
 ```
   
-# 정확한 시간 측정에는 time.perf_counter() 를 사용하라! 
-# ref Listing 4.7: time_perf_counter.py
+* 정확한 시간 측정에는 time.perf_counter() 를 사용하라! 
+* ref Listing 4.7: time_perf_counter.py
 
 
 ## 4.1.6 time components.
 
-# 타임존 변경하기 - 간단하게 time.tzset()해보았음.   tag: 101ex , needsToDrawPic
 ```python
+
+# 타임존 변경하기 - 간단하게 time.tzset()해보았음.   tag: 101ex , needsToDrawPic
+
 import time
 import os
 
