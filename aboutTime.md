@@ -82,3 +82,21 @@ print('\n서식화된 결과:',
       time.strftime("%a %b %d %H:%M:%S %Y", parsed))
 
 ```
+
+결과는
+```
+현재: Mon Jan  2 21:17:27 2017
+
+파싱값:
+  tm_year : 2017
+  tm_mon  : 1
+  tm_mday : 2
+  tm_hour : 21
+  tm_min  : 17
+  tm_sec  : 27
+  tm_wday : 0
+  tm_yday : 2
+  tm_isdst: -1
+
+서식화된 결과: Mon Jan 02 21:17:27 2017
+```
