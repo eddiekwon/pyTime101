@@ -53,7 +53,7 @@ print()
 ```
 
 
-Listing 4.10: time_strptime.py
+## Listing 4.10: time_strptime.py
 
 ```
 import time
@@ -83,7 +83,7 @@ print('\n서식화된 결과:',
 
 ```
 
-결과는
+## 결과는
 ```
 현재: Mon Jan  2 21:17:27 2017
 
